@@ -1,4 +1,4 @@
-# Gregor Joseph Werner: Veni Creator Spiritus (A-Ed B 50)
+# Gregor Joseph Werner: Veni creator Spiritus (A-Ed B 50)
 
 Engraving files for LilyPond 2.22.0
 

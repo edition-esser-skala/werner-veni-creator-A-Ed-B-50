@@ -2,11 +2,9 @@
 
 \include "../definitions.ly"
 
-\paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
-
 #(set-global-staff-size 15.87)
+
+\paper { systems-per-page = #2 }
 
 \book {
   \bookpart {
@@ -14,11 +12,10 @@
       title = "V E N I   C R E A T O R   S P I R I T U S"
     }
     \paper { indent = 3\cm }
-    % \tocSection "1." "Veni ^Creator Spiritus"
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
@@ -71,7 +68,7 @@
         \new FiguredBass { \VeniBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }
