@@ -45,29 +45,16 @@
 \book {
   \bookpart {
     \header {
-      number = "1"
-      title = "F I R S T"
+      title = "V E N I   C R E A T O R   S P I R I T U S"
     }
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \Organo
+          \VeniOrgano
         }
-        \new FiguredBass { \BassFigures }
-      >>
-    }
-  }
-  \bookpart {
-    \header {
-      number = "2"
-      title = "S E C O N D"
-    }
-    \score {
-      <<
-        \new Staff { \Organo }
-        \new FiguredBass { \BassFigures }
+        \new FiguredBass { \VeniBassFigures }
       >>
     }
   }

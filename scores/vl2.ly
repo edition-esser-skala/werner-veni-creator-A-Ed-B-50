@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "vl 2"
   }
 }
 
@@ -47,12 +47,12 @@
     \header {
       title = "V E N I   C R E A T O R   S P I R I T U S"
     }
-    \paper { indent = 2\cm page-count = #3 }
+    \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \VeniOrgano
+          \set Staff.instrumentName = "Violino II"
+          \VeniViolinoII
         }
       >>
     }
