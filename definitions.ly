@@ -690,3 +690,4 @@ markFine = {
 \include "notes/T.ly"
 \include "notes/B.ly"
 \include "notes/org.ly"
+\include "notes/chords.ly"
