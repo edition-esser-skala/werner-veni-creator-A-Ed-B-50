@@ -1,16 +1,15 @@
-composer: Werner, Gregor Joseph
+composer:
+  last: Werner
+  first: Gregor Joseph
 title: Veni creator Spiritus
-id: (A-Ed B 50)
 genre: sequence
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: B 50
-    type: manuscript copy
-    date: unknown
     rism: 600038022
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/780.html
-github: werner-veni-creator-A-Ed-B-50
-imslp: 
-notes:
+    license: public domain
+    principal: true
